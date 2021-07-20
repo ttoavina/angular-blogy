@@ -1,0 +1,5 @@
+
+<app-about (setContent)="startSwitch($event)" [article] = "articles[current]"></app-about>
+
+
+<app-card [article] = "item" (gotoContent)="contentSwitch($event)"  *ngFor = "let item of articles"></app-card>

@@ -1,0 +1,76 @@
+.parallax{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+.pimg-1{
+  background-image: url("../assets/bg1.jpg");
+  display: flex;
+  color: rgba(196, 190, 190, 0.808);
+}
+
+h1{
+  font-size: 500%;
+}
+
+.pimg-2{
+  background-image: url("../assets/bg2.jpg");
+  display: flex;
+  color: rgba(196, 190, 190, 0.808);
+
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(196, 190, 190, 0.808);
+
+}
+
+app-content{
+  padding : 10vh;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.container{
+  background-color: rgba(0, 0, 0, 0.479);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.sobar{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+i{
+  color: rgba(196, 190, 190, 0.808);
+  width: 10vh;
+  height: 10vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+}

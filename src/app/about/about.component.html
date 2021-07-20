@@ -1,0 +1,13 @@
+<div id="value" class="container">
+  <img src="../../assets/card_list/{{article.path}}" alt="presentation">
+  <h1>{{article.title}}:</h1>
+  <h6>{{article.intro}}</h6>
+  <p>
+    {{article.content}}
+  </p>
+  <div class="bgroup">
+    <button (click)="prev()" class="btn btn-dark">Retour</button>
+    <button (click)="next()" class="btn btn-dark">Suivant</button>
+  </div>
+
+</div>

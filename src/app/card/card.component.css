@@ -1,0 +1,28 @@
+*{
+  margin: 10px;
+}
+
+div{
+  display: flex;
+  margin: 10px;
+  background-color: rgba(196, 190, 190, 0.808);
+  border: 1px #0000008a solid;
+  width: 40vh;
+  height: 70vh;
+  border-radius: 5px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(7, 7, 7, 0.76),
+  -8px -8px 5px #ffffffa6;
+}
+
+
+img{
+  width: 35vh;
+  height: 30vh;
+
+  border-radius: 5px;
+}
